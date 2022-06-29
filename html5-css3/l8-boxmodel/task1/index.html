@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: antiquewhite;
+      }
+      .box1 {
+        box-sizing: content-box;
+      }
+      .box2 {
+        box-sizing: border-box;
+      }
+      .box1,
+      .box2 {
+        border: 8px solid black;
+        width: 512px;
+        height: 128px;
+        margin: 16px;
+        padding: 16px;
+        background-color: aquamarine;
+      }
+      .box2 {
+        background-color: azure;
+      }
+      .box1 {
+        background-color: aquamarine;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1">'Content Box Sizing'</div>
+    <div class="box2">'Border Box Sizing'</div>
+  </body>
+</html>
