@@ -4,15 +4,20 @@
 .header{
     background-color: darkturquoise;
     height: 40px;
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
 }
-.navigation{
-    height: 40px;
-}
+
+  .nav-list{
+    line-height: 50%;
+  }
+
 .nav-item{
     display: inline;
     color: white;
-    line-height: 40px;
-    margin: 16px;
+    margin-left: 16px;
 }
 .content {
     background-color: beige;
