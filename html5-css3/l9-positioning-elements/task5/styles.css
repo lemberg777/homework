@@ -1,7 +1,4 @@
-*{
-    box-sizing: border-box;
-}
-.header{
+.header, .navigation {
     background-color: darkturquoise;
     height: 40px;
     width: 100%;
@@ -10,14 +7,19 @@
     top: 0px;
 }
 
+    
+
+
   .nav-list{
     line-height: 50%;
+    
   }
 
 .nav-item{
     display: inline;
     color: white;
     margin-left: 16px;
+    
 }
 .content {
     background-color: beige;
