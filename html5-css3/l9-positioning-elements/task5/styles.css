@@ -1,95 +1,78 @@
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
 .header {
-    background-color: darkturquoise;
-    height: 40px;
-    width: 100%;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-   
+  background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
 }
-.navigation{
-    height: 40px;
-    position: relative;
-    left: 0px;
-    top: 0px;
-   
-    
-    
+.navigation {
+  height: 40px;
+  position: relative;
+  left: 0px;
+  top: 0px;
 }
-  .nav-list{
-    line-height: 40px;
-    margin: 0px;
-    font-size: 0;
-    
-    
-    
-   }
-.nav-item{
-    display: inline-block;
-    color: white; 
-    margin-left: 16px;
-    
-    
-    font-size: 16px;
- 
-       
+.nav-list {
+  line-height: 40px;
+  margin: 0px;
+  font-size: 0;
+}
+.nav-item {
+  display: inline-block;
+  color: white;
+  margin-left: 16px;
+
+  font-size: 16px;
 }
 .content {
-    background-color: beige;
-    height: 5000px;
+  background-color: beige;
+  height: 5000px;
 }
 .head {
-    height: 200px;
-    width: 200px;
-    background-color: aquamarine;
-    position: absolute;
-    
-    left: 50%;
-    top: 50%;
-  
-    
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+  position: absolute;
+
+  left: 50%;
+  top: 50%;
 }
-.ear{
-    background-color: brown;
-    width: 40px;
-    height: 60px;
+.ear {
+  background-color: brown;
+  width: 40px;
+  height: 60px;
 }
 .ear_right {
-   
-    float: right;
-    position: relative;
-    top: -60px;
-    right: -40px;
-    
+  float: right;
+  position: relative;
+  top: -60px;
+  right: -40px;
 }
 .ear_left {
-   
-    float: left;
-    position: relative;
-    top: -60px;
-    left: -40px;
+  float: left;
+  position: relative;
+  top: -60px;
+  left: -40px;
 }
-.eye{
-    background-color: gray;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
+.eye {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
 }
-.eye_right{
-   
-    float: right;
-    position: absolute;
-    top: 80px;
-    right: 40px;
+.eye_right {
+  float: right;
+  position: absolute;
+  top: 80px;
+  right: 40px;
 }
-.eye_left{
-  
-    float: left;
-    position: absolute;
-    top: 80px;
-    left: 40px;
+.eye_left {
+  float: left;
+  position: absolute;
+  top: 80px;
+  left: 40px;
 }
