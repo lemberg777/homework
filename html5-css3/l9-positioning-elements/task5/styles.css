@@ -38,8 +38,8 @@
   width: 200px;
   background-color: aquamarine;
   position: absolute;
-  top: calc(50%-100px);
-  left: calc(50%-100px);
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
 }
 .ear {
   background-color: brown;
