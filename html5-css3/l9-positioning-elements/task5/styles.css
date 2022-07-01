@@ -18,6 +18,8 @@
   .nav-list{
     line-height: 40px;
     margin: 0px;
+    margin-left: 16px;
+    padding: 0px;
     
    }
 .nav-item{
