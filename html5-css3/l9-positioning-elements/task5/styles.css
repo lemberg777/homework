@@ -9,7 +9,7 @@
 }
 .navigation{
     height: 40px;
-    position: fixed;
+    position: relative;
     left: 0px;
     top: 0px;
 }
@@ -21,11 +21,13 @@
     margin-left: 16px;
     padding: 0px;
     
+    
    }
 .nav-item{
-    display: inline;
+    display: inline-block;
     color: white;
     margin-left: 16px;
+    
        
 }
 .content {
