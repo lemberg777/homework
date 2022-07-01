@@ -12,22 +12,18 @@
     position: relative;
     left: 0px;
     top: 0px;
+    
 }
-
-
   .nav-list{
     line-height: 40px;
     margin: 0px;
-    margin-left: 16px;
-   
     
     
    }
 .nav-item{
     display: inline-block;
-    color: white;
+    color: white; 
     margin-left: 16px;
-    
        
 }
 .content {
