@@ -46,10 +46,13 @@
     height: 200px;
     width: 200px;
     background-color: aquamarine;
-    position: absolute;
-  left: calc(50%);
-  top: calc(50%);
-  clear: both;
+    position: relative;
+    margin: auto;
+    top: 50%;
+    margin-top: -100px;
+   
+
+    
   
 }
 .ear{
