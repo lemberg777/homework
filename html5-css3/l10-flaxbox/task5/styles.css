@@ -8,8 +8,10 @@ h1 {
   padding: 16px;
   flex-basis: 300px;
   flex-grow: 1;
+  box-sizing: border-box;
 }
 .articles-list {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
 }
