@@ -13,7 +13,7 @@
 }
 
 .menu-list {
-  display: ;
+  display: none;
   margin: 0;
   padding: 0;
   background-color: lightcyan;
@@ -41,7 +41,4 @@
 }
 .dropdown:hover {
   opacity: 1;
-}
-.menu-button {
-  padding: 16px;
 }
