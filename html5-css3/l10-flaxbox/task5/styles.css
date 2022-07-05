@@ -3,14 +3,13 @@ h1 {
   justify-content: center;
 }
 .article {
+  background-color: bisque;
   margin: 8px;
   padding: 16px;
-  background-color: bisque;
-  min-width: 300px;
-  flex-basis: auto;
+  flex-basis: 300px;
   flex-grow: 1;
 }
 .articles-list {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
 }
