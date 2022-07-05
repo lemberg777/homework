@@ -1,0 +1,43 @@
+.dropdown {
+  margin: 16px;
+  padding: 16px;
+  background-color: darkgreen;
+  opacity: 0.8;
+  position: relative;
+  display: inline;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  display: inline-block;
+  height: 50px;
+}
+
+.menu-list {
+  display: none;
+  margin: 0;
+  padding: 0;
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+  min-width: 120px;
+  position: absolute;
+  top: 50px;
+  left: 0px;
+
+  z-index: 1;
+}
+.menu-item {
+  padding: 16px;
+  background-color: ghostwhite;
+  list-style-type: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.dropdown:hover .menu-list {
+  display: block;
+}
+.dropdown:hover {
+  opacity: 1;
+}
