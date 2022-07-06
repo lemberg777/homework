@@ -6,11 +6,9 @@ h1 {
   word-spacing: 20px;
   text-align: center;
   text-transform: uppercase;
-  margin: 32px;
 }
 p {
   line-height: 28px;
-  margin: 32px;
 }
 .technolegy {
   font-weight: bold;
@@ -24,4 +22,7 @@ a {
 }
 em {
   color: gray;
+}
+body {
+  margin: 32px;
 }
