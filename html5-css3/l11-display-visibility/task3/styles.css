@@ -1,17 +1,20 @@
 .dropdown {
   margin: 16px;
-  padding: 16px;
-  background-color: darkgreen;
-  opacity: 0.8;
   position: relative;
-  display: inline;
-  cursor: pointer;
+  background-color: darkgreen;
+
+  display: inline-block;
+}
+.menu-button {
+  margin: 0px;
+  padding: 0px;
+  opacity: 0.8;
   font-size: 16px;
   color: white;
-  display: inline-block;
-  height: 50px;
+  cursor: pointer;
+  padding: 16px;
+  display: block;
 }
-
 .menu-list {
   display: none;
   margin: 0;
