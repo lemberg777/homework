@@ -2,13 +2,12 @@
   margin: 16px;
   position: relative;
   background-color: darkgreen;
-
+  opacity: 0.8;
   display: inline-block;
 }
 .menu-button {
   margin: 0px;
   padding: 0px;
-  opacity: 0.8;
   font-size: 16px;
   color: white;
   cursor: pointer;
@@ -26,7 +25,6 @@
   position: absolute;
   top: 50px;
   left: 0px;
-
   z-index: 1;
 }
 .menu-item {
