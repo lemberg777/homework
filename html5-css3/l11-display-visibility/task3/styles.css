@@ -28,7 +28,7 @@
 .menu-item {
   padding: 16px;
   margin: 0px;
-  background-color: ghostwhite;
+
   list-style-type: none;
 }
 
@@ -40,4 +40,7 @@
 }
 .dropdown:hover {
   opacity: 1;
+}
+.menu-item:hover {
+  background-color: ghostwhite;
 }
