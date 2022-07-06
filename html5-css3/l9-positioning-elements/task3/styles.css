@@ -1,22 +1,23 @@
-.header{
-    height: 50px;
-    background-color: yellow;
+.header {
+  height: 50px;
+  background-color: yellow;
 }
 
-.content{
-    background-color: pink;
-    width: 80%;
-    float: left;
-    height: 500px;
+.content {
+  background-color: pink;
+  width: 80%;
+  float: left;
+  height: 500px;
 }
-.sidebar{ background-color: grey;
-width: 20%;
-float: left;
-height: 500px;
+.sidebar {
+  background-color: grey;
+  width: 20%;
+  float: left;
+  height: 500px;
 }
 
-.footer{
-    height: 50px;
-    background-color: green;
-    clear: both;
+.footer {
+  height: 50px;
+  background-color: green;
+  clear: both;
 }
