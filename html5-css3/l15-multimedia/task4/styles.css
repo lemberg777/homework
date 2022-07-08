@@ -8,12 +8,17 @@
 }
 .image {
   max-width: 100%;
+
+  display: flex;
 }
 
 .image-button {
+  display: flex;
   height: 50px;
   width: 200px;
   position: absolute;
+  align-items: center;
+  justify-content: center;
 
   background-color: bisque;
   font-size: 12px;
