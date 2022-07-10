@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU="
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .main-form {
+        margin: 32px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        flex-basis: auto;
+      }
+      .type-control {
+        margin: 8px;
+      }
+      .languages {
+        flex-direction: row;
+      }
+      .radio-inline {
+        display: flex;
+        margin: 8px;
+      }
+      .radio {
+        margin-right: 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="main-form">
+      <input class="type-control" type="text" name="primaryLanguage" value="HTML" disabled />
+      <input class="type-control" type="checkbox" name="agree" disabled />
+      <input class="type-control" type="checkbox" name="like" checked readonly />
+      <input class="type-control" type="color" name="favouriteColor" value="#ff7f50" />
+      <input class="type-control" type="date" name="birthDate" value="2021-01-02" />
+      <input class="type-control" type="datetime-local" value="2024-10-04T13:02" />
+      <input
+        class="type-control"
+        type="email"
+        name="email"
+        placeholder="example@domain.com"
+        required
+      />
+      <input class="type-control" type="file" name="avatar" />
+      <input class="type-control" type="month" name="startLearning" value="2020-01" />
+      <input class="type-control" type="number" name="favouriteNumber" value="17" />
+      <textarea
+        class="type-control"
+        name="story"
+        cols="30"
+        rows="5"
+        placeholder="A long time ago..."
+      ></textarea>
+      <input class="type-control" type="password" name="password" value="secret" />
+
+      <div class="radio-inline">
+        <div class="radio">
+          <label class="type-control">
+            <input class="languages" name="language" type="radio" value="html" /> HTML
+          </label>
+        </div>
+        <div class="radio">
+          <label class="type-control">
+            <input class="languages" name="language" type="radio" value="css" checked /> CSS
+          </label>
+        </div>
+        <div class="radio">
+          <label class="type-control">
+            <input class="languages" name="language" type="radio" value="javascript" />
+            javaScript</label
+          >
+        </div>
+      </div>
+      <input class="type-control" type="range" name="learningProgress" value="30" />
+      <select class="type-control">
+        name="framework"
+        <option value="react">React</option>
+        <option value="jquery">jQuery</option>
+        <option value="bootstrap">Bootstrap</option>
+      </select>
+      <input class="type-control" type="search" name="search" placeholder="Type first letters..." />
+      <input class="type-control" type="time" name="lunchEnd" value="14:01" />
+      <input
+        class="type-control"
+        type="url"
+        name="website"
+        placeholder="https://website.com"
+        required
+      />
+      <input class="type-control" type="week" name="birthWeek" value="2021-W51" />
+      <button class="type-control" type="submit">Save</button>
+    </form>
+  </body>
+</html>
