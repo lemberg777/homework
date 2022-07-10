@@ -32,7 +32,7 @@
       <div><input type="checkbox" name="like" checked readonly /></div>
       <div><input type="color" name="favouriteColor" value="#ff7f50" /></div>
       <div><input type="date" name="birthDate" value="2021-01-02" /></div>
-      <div><input type="datetime-local" value="2024-10-04T13:02" /></div>
+      <div><input type="datetime-local" name="birthTime" value="2024-10-04T13:02" /></div>
       <div><input type="email" name="email" placeholder="example@domain.com" required /></div>
       <div><input type="file" name="avatar" /></div>
 
@@ -43,21 +43,16 @@
       </div>
       <div><input type="password" name="password" value="secret" /></div>
       <div>
-        <label><input class="languages" name="language" type="radio" value="html" /> HTML </label>
+        <input class="languages" name="language" type="radio" value="html" /> HTML
 
-        <label>
-          <input class="languages" name="language" type="radio" value="css" checked /> CSS
-        </label>
+        <input class="languages" name="language" type="radio" value="css" checked /> CSS
 
-        <label>
-          <input class="languages" name="language" type="radio" value="javascript" />
-          javaScript</label
-        >
+        <input class="languages" name="language" type="radio" value="javascript" />
+        javaScript
       </div>
       <div><input type="range" name="learningProgress" value="30" /></div>
       <div>
-        <select>
-          name="framework"
+        <select name="framework">
           <option value="react">React</option>
           <option value="jquery">jQuery</option>
           <option value="bootstrap">Bootstrap</option>
