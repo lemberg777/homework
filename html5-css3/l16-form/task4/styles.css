@@ -30,7 +30,6 @@
   flex-direction: column;
 }
 .form-input {
-  margin-bottom: 4px;
   height: 32px;
   border-radius: 4px;
   border: 1px #808080 slid;
