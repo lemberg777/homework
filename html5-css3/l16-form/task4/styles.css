@@ -47,3 +47,6 @@
 .form-input:invalid {
   border: #ff0000 solid 3px;
 }
+.form-label {
+  margin-bottom: 4px;
+}
