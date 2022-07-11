@@ -24,14 +24,7 @@
         margin: 8px;
       }
       .languages {
-        flex-direction: row;
-      }
-      .radio-inline {
-        display: flex;
         margin: 8px;
-      }
-      .radio {
-        margin-right: 4px;
       }
     </style>
   </head>
@@ -62,17 +55,13 @@
       ></textarea>
       <input class="type-control" type="password" name="password" value="secret" />
 
-      <div class="radio-inline">
-        <div class="radio">
-          <input class="languages" name="language" type="radio" value="html" /> HTML
-        </div>
-        <div class="radio">
-          <input class="languages" name="language" type="radio" value="css" checked /> CSS
-        </div>
-        <div class="radio">
-          <input class="languages" name="language" type="radio" value="javascript" />
-          JavaScript
-        </div>
+      <div class="languages">
+        <input name="language" type="radio" value="html" /> HTML
+
+        <input name="language" type="radio" value="css" checked /> CSS
+
+        <input name="language" type="radio" value="javascript" />
+        JavaScript
       </div>
       <input class="type-control" type="range" name="learningProgress" value="30" />
       <select class="type-control" name="framework">
