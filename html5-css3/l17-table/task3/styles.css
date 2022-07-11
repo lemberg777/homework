@@ -11,9 +11,9 @@ tr {
 table {
   margin: 16px;
   background-color: white;
-  border-spacing: 0px;
 }
 
+table,
 td {
   border: 1px solid black;
   border-collapse: collapse;
@@ -55,8 +55,4 @@ tr:nth-child(even) > td:first-of-type {
 }
 tr:nth-child(odd) > td:last-of-type {
   background-color: white;
-}
-
-body > table {
-  border: 1px solid black;
 }
