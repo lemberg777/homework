@@ -48,3 +48,10 @@ tr:first-of-type > td:nth-child(even) {
 tr:last-of-type > td:nth-child(odd) {
   background-color: white;
 }
+
+tr:nth-child(even) > td:first-of-type {
+  background-color: white;
+}
+tr:nth-child(odd) > td:last-of-type {
+  background-color: white;
+}
