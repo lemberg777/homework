@@ -10,33 +10,39 @@
       crossorigin="anonymous"
     />
     <title>Document</title>
-<style>
-    *{
-box-sizing: border-box;}
-table{
-  width: 500px;
-  margin: 16px;
-  text-align: right;
-}
-table, th, td{
-  border: 1px black solid;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 4px;
-}
-</style>  
-</head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      table {
+        width: 500px;
+        margin: 16px;
+        text-align: right;
+      }
+      table,
+      th,
+      td {
+        border: 1px black solid;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 4px;
+      }
+    </style>
+  </head>
   <body>
     <table>
-          <tbody>
-        <caption>Shopping list</caption>
-        <thead>
-          <th>Product</th>
-          <th>Amount</th>
-          <th>Price</th>
-          <th>Subtotal</th>
-        </thead>
+      <caption>
+        Shopping list
+      </caption>
+      <thead>
+        <th>Product</th>
+        <th>Amount</th>
+        <th>Price</th>
+        <th>Subtotal</th>
+      </thead>
+      <tbody>
         <tr>
           <td>Milk</td>
           <td>3</td>
@@ -55,11 +61,11 @@ th, td {
           <td>$10</td>
           <td>$50</td>
         </tr>
-        <tfoot>
-            <td colspan="3">Total</td>
-            <td>$60</td>
-        </tfoot>
       </tbody>
+      <tfoot>
+        <td colspan="3">Total</td>
+        <td>$60</td>
+      </tfoot>
     </table>
   </body>
 </html>
