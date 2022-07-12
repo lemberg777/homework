@@ -18,7 +18,7 @@ button:hover {
 .bird-icon {
   width: 32px;
   height: 32px;
-  background-color: white;
+  fill: white;
   vertical-align: middle;
 }
 .bird-icon:hover {
