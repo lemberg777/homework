@@ -11,6 +11,7 @@
   font-weight: 700;
   border: none;
   cursor: pointer;
+  line-height: 50px;
 }
 button:hover {
   color: darkcyan;
