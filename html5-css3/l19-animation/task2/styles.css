@@ -10,6 +10,7 @@
 @keyframes move {
   0% {
     left: 0px;
+    top: 0px;
     background-color: coral;
   }
   25% {
