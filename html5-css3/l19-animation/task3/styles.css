@@ -21,7 +21,7 @@
   height: 4px;
   width: 10px;
   border-radius: 2px;
-
+  display: flex;
   position: relative;
   background-color: black;
   animation: moving 2s infinite alternate, blinking 2s infinite linear;
