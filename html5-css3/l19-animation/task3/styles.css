@@ -21,8 +21,8 @@
   height: 4px;
   width: 10px;
   border-radius: 2px;
-  position: absolute;
+
+  position: relative;
   background-color: black;
-  animation: moving 2s infinite alternate;
-  animation: blinking 2s infinite linear;
+  animation: moving 2s infinite alternate, blinking 2s infinite linear;
 }
