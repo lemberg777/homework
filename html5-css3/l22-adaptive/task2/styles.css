@@ -11,7 +11,7 @@
   background-color: #006400;
   display: flex;
   min-height: 200px;
-  flex-grow: 1;
+
   flex: 1 1 0;
 }
 .news {
