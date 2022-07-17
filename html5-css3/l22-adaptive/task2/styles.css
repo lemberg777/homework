@@ -5,19 +5,20 @@
   background-color: #ff7f50;
   min-height: 200px;
   display: flex;
-  flex-grow: 1;
+  flex: 1 1 0;
 }
 .main {
   background-color: #006400;
   display: flex;
   min-height: 200px;
   flex-grow: 1;
+  flex: 1 1 0;
 }
 .news {
   background-color: #0ff;
   display: flex;
   min-height: 200px;
-  flex-grow: 1;
+  flex: 1 1 0;
 }
 
 span {
@@ -32,7 +33,7 @@ span {
 @media screen and (min-width: 600px) {
   .product {
     display: flex;
-    flex-grow: 2;
+    flex: 2 1 0;
   }
 }
 @media screen and (min-width: 900px) {
