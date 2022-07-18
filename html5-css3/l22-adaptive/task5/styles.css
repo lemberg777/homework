@@ -113,6 +113,15 @@ img {
   .container {
     display: flex;
   }
+  .navigation {
+    max-width: 20%;
+  }
+  .section {
+    max-width: 80%;
+  }
+  .news {
+    max-width: 20%;
+  }
   .main-text {
     width: 80%;
   }
