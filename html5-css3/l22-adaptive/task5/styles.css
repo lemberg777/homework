@@ -23,7 +23,6 @@ body {
 .main {
   display: flex;
   flex-grow: 1;
-  flex-wrap: wrap;
 }
 .footer {
   background-color: #e5e5e5;
@@ -34,18 +33,15 @@ body {
 .navigation {
   padding: 0.5em;
   width: 20%;
-  flex: 1 1 0;
 }
 .section {
   padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
-  flex: 1 1 0;
 }
 .news {
   padding: 0.5em;
   width: 20%;
-  flex: 1 1 0;
 }
 .units-list {
   line-height: 1.75em;
@@ -98,31 +94,18 @@ img {
     width: 100%;
   }
 }
-@media screen and (min-width: 600px) {
-  .main-text {
+@media screen and (min-width: 600px) and (max-width: 1199px) {
+  .main {
     display: flex;
-  }
-  .section {
-    flex-grow: 5;
-  }
-}
-.news {
-  width: 100%;
-}
-@media screen and (min-width: 1200px) {
-  .container {
-    display: flex;
-  }
-  .navigation {
-    max-width: 20%;
-  }
-  .section {
-    max-width: 80%;
+    flex-wrap: wrap;
   }
   .news {
-    max-width: 20%;
+    flex-basis: 100%;
   }
-  .main-text {
-    width: 80%;
+  .section {
+    flex-basis: 80%;
+  }
+  .navigation {
+    flex-basis: 20%;
   }
 }
