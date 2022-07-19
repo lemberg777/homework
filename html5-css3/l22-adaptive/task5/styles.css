@@ -35,7 +35,7 @@ body {
   width: 20%;
 }
 .section {
-  padding: em;
+  padding: 0.5em;
   width: 60%;
   font-size: 1.25em;
 }
