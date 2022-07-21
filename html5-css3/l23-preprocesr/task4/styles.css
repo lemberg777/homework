@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+}
+
+.div {
+  height: 200px;
+  display: flex;
+  flex: 1 1 0;
+}
+
+.navigation {
+  background-color: #ff7f50;
+}
+
+.main {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+span {
+  text-transform: lowercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+@media screen and (min-width: 600px) {
+  .product {
+    display: flex;
+    flex: 2 1 0;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
