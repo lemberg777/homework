@@ -1,0 +1,15 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #2b292d;
+}
+* {
+  box-sizing: border-box;
+}
+.page {
+  width: 1400px;
+  margin: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
