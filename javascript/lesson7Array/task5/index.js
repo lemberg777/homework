@@ -1,10 +1,8 @@
 "use strict";
 
 function createEmptyArray(len) {
-  let emptyArray = [len];
-
-  //return emptyArray;
+  let emptyArray = [];
+  emptyArray.length = len;
+  return emptyArray;
 }
-
-createEmptyArray(len);
-console.log(createEmptyArray(len));
+console.log(createEmptyArray([1]));
